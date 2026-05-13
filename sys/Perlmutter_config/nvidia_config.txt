@@ -21,7 +21,7 @@ FCFlags:-fast -acc=gpu
 
 !Below are a few more things that should probably be specified.  The script will do its best, but sometimes it will need some help.
 !TestDir:/home/<user>/OpenACCV-V/Tests
-!BuildDir/home/<user>/OpenACCV-V/Build
+!BuildDir:/home/<user>/OpenACCV-V/Build
 
 !By default, the script will show very few messages about what it is doing.  
 !Uncomment the entries below if you would like to be given more information during runtime about the following:
@@ -100,10 +100,10 @@ FCFlags:-fast -acc=gpu
 !In addition, you can specify the OpenACC version that the compiler implements with the following lines:
 !(The last one can be used as a shorthand for all three being set to the same version)
 
-!C_ACC_Version:2.5
-!CPP_ACC_Version:2.7
-!Fortran_ACC_Version:3.0
-!ACC_Version:1.0
+!C_ACC_Version:2.6
+!CPP_ACC_Version:2.6
+!Fortran_ACC_Version:2.6
+ACC_Version:2.6
 
 !If these are ommited, the infrastructure will try to detect the version of OpenACC being implemented
 
@@ -176,6 +176,6 @@ ResultsFormat:json
 
 !RuntimePrefix:<prefix>
 
-iThis can be used to test host-fallback on gcc for example with RuntimePrefix:ACC_DEVICE_TYPE=None
+!This can be used to test host-fallback on gcc for example with RuntimePrefix:ACC_DEVICE_TYPE=None
 
 RunAllTests:True

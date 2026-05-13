@@ -21,7 +21,7 @@ FCFlags:-fopenacc -cpp -lm -foffload='-lm'
 
 !Below are a few more things that should probably be specified.  The script will do its best, but sometimes it will need some help.
 !TestDir:/home/<user>/OpenACCV-V/Tests
-!BuildDir/home/<user>/OpenACCV-V/Build
+!BuildDir:/home/<user>/OpenACCV-V/Build
 
 !By default, the script will show very few messages about what it is doing.  
 !Uncomment the entries below if you would like to be given more information during runtime about the following:
@@ -176,6 +176,6 @@ ResultsFormat:json
 
 !RuntimePrefix:<prefix>
 
-iThis can be used to test host-fallback on gcc for example with RuntimePrefix:ACC_DEVICE_TYPE=None
+!This can be used to test host-fallback on gcc for example with RuntimePrefix:ACC_DEVICE_TYPE=None
 
 RunAllTests:True

@@ -1508,7 +1508,7 @@ class config:
         self.keep_policy = "on-error"  # type: str
         self.keep_mutated_tests = False  # type: bool
         self.keep_partial_results = False  # type: bool
-        self.keep_build_dir = False  # type: bool
+        self.keep_build_dir = True  # type: bool
 
     def __eq__(self, other):
         self_vars = vars(self)
