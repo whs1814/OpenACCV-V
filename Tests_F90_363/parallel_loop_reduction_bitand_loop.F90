@@ -1,0 +1,1 @@
+../Tests/parallel_loop_reduction_bitand_loop.F90

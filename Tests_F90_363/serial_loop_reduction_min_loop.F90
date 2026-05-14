@@ -1,0 +1,1 @@
+../Tests/serial_loop_reduction_min_loop.F90

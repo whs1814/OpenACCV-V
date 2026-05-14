@@ -1,0 +1,1 @@
+../Tests/parallel_loop_auto.F90

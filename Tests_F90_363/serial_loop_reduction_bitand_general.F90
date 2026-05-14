@@ -1,0 +1,1 @@
+../Tests/serial_loop_reduction_bitand_general.F90

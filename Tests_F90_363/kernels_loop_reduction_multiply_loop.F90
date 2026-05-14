@@ -1,0 +1,1 @@
+../Tests/kernels_loop_reduction_multiply_loop.F90

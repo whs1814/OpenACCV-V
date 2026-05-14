@@ -1,0 +1,1 @@
+../Tests/acc_get_property.F90

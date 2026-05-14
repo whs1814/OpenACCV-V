@@ -1,0 +1,1 @@
+../Tests/kernels_loop_reduction_bitxor_vector_loop.F90

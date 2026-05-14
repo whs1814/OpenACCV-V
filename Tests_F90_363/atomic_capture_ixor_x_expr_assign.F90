@@ -1,0 +1,1 @@
+../Tests/atomic_capture_ixor_x_expr_assign.F90

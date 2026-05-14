@@ -1,0 +1,1 @@
+../Tests/kernels_loop_reduction_min_general.F90

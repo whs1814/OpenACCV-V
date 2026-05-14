@@ -1,0 +1,1 @@
+../Tests/kernels_loop_reduction_bitxor_general.F90

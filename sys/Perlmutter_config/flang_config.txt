@@ -17,11 +17,12 @@ FC:flang
 
 !CCFlags:-fopenacc -cpp
 !CPPFlags:-fopenacc -cpp
+!FCFlags: -fc1 -emit-fir -fopenacc /public/software/compiler/gcc/gcc-16/lib/gcc/x86_64-redhat-linux/16/finclude/openacc.f90
 FCFlags:-fopenacc -cpp
 
 !Below are a few more things that should probably be specified.  The script will do its best, but sometimes it will need some help.
 
-!TestDir:/home/<user>/OpenACCV-V/Tests
+!TestDir:/home/<user>/OpenACCV-V/Tests_F90_363
 !BuildDir/home/<user>/OpenACCV-V/Build_flang
 
 !By default, the script will show very few messages about what it is doing.
@@ -35,7 +36,7 @@ FCFlags:-fopenacc -cpp
 !ShowInfo
 ShowAll
 
-!ShowDebug
+ShowDebug
 
 !The infrastructure can also be used to extend the existing testsuite through the use of "Mutators"
 !which will be called at runtime with a test object.  More information can be found in the demo
